@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: { canonical: '/' },
+  icons: {
+    icon: ['/favicon.ico', '/favicon.svg', '/favicon-64.png'],
+    apple: ['/apple-touch-icon.png'],
+  },
 };
 
 export const viewport: Viewport = {
